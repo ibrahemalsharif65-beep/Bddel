@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+export const TEST_AUTH_FORMS = true;import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { createClient } from '@/lib/supabase/client';
